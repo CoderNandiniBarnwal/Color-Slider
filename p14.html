@@ -1,0 +1,46 @@
+<!--Dynamic Text Color Slider Page*
+
+*Problem Statement:*
+
+Embark on an engaging project to create a dynamic web page that features a colour slider allowing users to interactively change the text colour in real-time. This HTML, CSS, and JavaScript project, "Dynamic Text Colour Slider Page," aims to provide hands-on experience in building a visually dynamic user interface with dynamic colour manipulation.
+
+*Project Features:*
+
+- *Text Display Section:*
+  - Design a section that displays a piece of text prominently on the webpage.
+
+- *Color Slider:*
+  - Implement a colour slider using HTML range input or any suitable UI element that dynamically adjusts the colour of the displayed text.
+
+- *User-Friendly Interface:*
+  - Ensure a user-friendly interface that intuitively guides users to change text colours effortlessly.
+
+- *Real-Time Colour Change:*
+  - Ensure that the text colour changes in real-time as users slide across the colour spectrum, providing instant visual feedback.
+
+- *Color Palette:*
+  - Integrate a colour palette or gradient that visually represents the range of colours available through the slider.-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p14</title>
+</head>
+<link rel="stylesheet" href="p14.css">
+
+<body>
+    <div id="bigbox">
+        <h3 id="heading1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem ea, numquam reprehenderit
+            expedita dolore? Maxime laborum quas, corrupti, fugiat itaque harum tempore quo, eveniet ipsum facere alias
+            perferendis suscipit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem ea, numquam
+            reprehenderit expedita fugit dolore? Maxime laborum quas, corrupti, fugiat itaque harum tempore quo, eveniet
+            ipsum facere alias perferendis suscipit!</h3>
+        <input type="range" id="c_picker" min="0" max="360" value="0" oninput="changeColor(this.value)">
+        <div id="c_gradient"></div>
+    </div>
+</body>
+<script src="p14.js"></script>
+
+</html>

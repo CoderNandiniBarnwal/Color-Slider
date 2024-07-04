@@ -1,0 +1,25 @@
+#bigbox {
+    width: 40%;
+    height: 300px;
+    margin: auto;
+    margin-top: 140px;
+    text-align: center;
+    padding: 4%;
+    background-image: radial-gradient(circle, rgb(219, 216, 216), rgb(219, 216, 216), rgb(219, 216, 216), rgb(219, 216, 216), black);
+
+}
+
+input {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#c_gradient {
+    height: 40px;
+    margin-top: 20px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+body {
+    background: linear-gradient(to top, cyan, blue, violet, pink, yellow, orange, red);
+}
